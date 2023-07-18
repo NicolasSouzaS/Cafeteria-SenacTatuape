@@ -13,6 +13,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn-mobile{
+  color: white;
+  display: none;
+}
+
 /* Aplicação de altura e plano de fundo ao header. Vamos colocar uma imagem
 como plano de fundo */
 header {
