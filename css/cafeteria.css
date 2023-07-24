@@ -234,14 +234,30 @@ section .uma-fracao ion-icon {
   border: 1px solid silver;
   border-radius: 30px;
   margin: 10px 20px;
+  transition: ease 0.9 all;
+  
 }
+
+.cat-cardapio:hover{
+  background-color: #390D02;
+  color: #f2f2f2;
+}
+
 .cat-cardapio a {
   font-family: Arial;
   font-size: 12pt;
   text-decoration: none;
   color: #333;
+  transition: ease 1s all;
 }
 
+.cat-cardapio a:hover{
+  color: #f2f2f2;
+}
+
+.cat-cardapio a ion-icon{
+  transition: ease 1 all;
+}
 .itens-cardapio {
   width: 200px;
   height: 350px;
